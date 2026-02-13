@@ -8,6 +8,15 @@ app.get('/', (req, res) => {
     res.send("Feel free to explore and modify the code as needed!");    
 });
 
+
+
+app.get('/test', (req, res) => {
+    res.send("Manas 🚀");
+    res.send("This is Applcaiton gration.");
+
+    res.send("Feel Modify the COdeas needed!");    
+});
+
 app.listen(3000, () => {
     console.log("Server running on port 3000");
     console.log("Visit http://localhost:3000 to see the application in action!");
